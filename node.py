@@ -4,7 +4,7 @@ import numpy as np
 import argparse
 import tensorflow as tf
 import socket  
-import time  
+from datetime import datetime  
 import threading  
 
 ap = argparse.ArgumentParser()
