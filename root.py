@@ -108,7 +108,7 @@ def get_cate_tst(index):
 meta = unpickle(path_to_meta)   # Keys: fine_label_names, coarse_label_names
 tst = unpickle(path_to_test)    # Keys: data, batch_label, fine_labels, coarse_labels, filenames
 
-n_test = 100
+n_test = 5000
 model = load_model(path_to_model)
 
 tstX, tstY = prepare_test_data(n_test)
