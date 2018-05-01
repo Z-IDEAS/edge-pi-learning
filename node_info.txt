@@ -1,0 +1,8 @@
+-m all -c animal,plant
+-m animal -c vertebrates invertebrates
+-m plant -c null
+-m vertebrates -c reptiles,fish,mammals
+-m invertebrates -c null
+-m mammals: -c null
+-m reptiles -c null
+-m fish -c null
